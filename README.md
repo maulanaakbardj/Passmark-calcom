@@ -23,9 +23,12 @@ Built using:
 ## 📂 Project Structure
 
 ```bash
-passmark-project/
+Passmark-calcom/
 │
-├── tests/
+├── ai-breaking-calcom/
+│   └── tests/
+│       └── ai-calcom.spec.ts
+│
 ├── playwright.config.ts
 ├── package.json
 ├── .env
@@ -40,7 +43,7 @@ Clone repository:
 
 ```bash
 git clone <your-repo-url>
-cd passmark-project
+cd Passmark-calcom
 ```
 
 Install dependencies:
@@ -53,16 +56,16 @@ npm install
 
 ## ▶️ Run Test
 
-Run Playwright test:
+Run all Playwright tests:
 
 ```bash
 npx playwright test
 ```
 
-Run specific test:
+Run AI Cal.com test:
 
 ```bash
-npx playwright test tests/example.spec.ts
+npx playwright test ai-breaking-calcom/tests/ai-calcom.spec.ts
 ```
 
 ---
